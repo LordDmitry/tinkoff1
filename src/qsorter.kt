@@ -27,7 +27,7 @@ fun qsort(first: Int, last: Int, arr: IntArray) {
 }
 
 fun sort(arr: IntArray){
-    qsort(0, arr.size, arr)
+    qsort(0, arr.size - 1, arr)
 }
 
 fun main(){
